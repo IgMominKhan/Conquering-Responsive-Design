@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/screenshot.png)
+![Conquering Responsive Layout](./screenshot/screenshot.png)
 
 ### Links
 
-- Live Site URL: [Conquering Responsive Layout](https://igmominkhan.github.io/article-preview-component/
+- Live Site URL: [Conquering Responsive Layout](https://igmominkhan.github.io/Conquering-Responsive-Design/)
 
 ## My process
 
