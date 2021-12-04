@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layouts Don't Have To Be A Struggle</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <section class="container row">
+        <!-- nav toggle button -->
+        <button class="nav-toggle">
+          <span class="hamburger"></span>
+        </button>
+        <!-- logo -->
+        <a href="#" class="logo"
+          ><img
+            src="./img/logo.svg"
+            alt="logo img"
+            loading="lazy"
+            class="logo__img"
+        /></a>
+        <!-- nav bar -->
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">about</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">contact</a>
+            </li>
+          </ul>
+
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item">
+              <a href="#sign-in" class="nav__link">sign in</a>
+            </li>
+            <li class="nav__item">
+              <a href="#sign-up" class="nav__link nav__link--button">sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <section id="home">
+      <div class="container row">
+        <h1 class="hero__text">
+          Responsive layouts
+          <span class="hero__text__color">don't have to be a struggle</span>
+        </h1>
+        <div class="hero__desc">
+          <p class="hero__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a href="#contact" class="hero__button">i want to learn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section id="about">
+      <div class="container row">
+        <div class="col-3">
+          <h2 class="about__heading md-lg-heading">mobile-first</h2>
+          <p class="about__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="col-3">
+          <h2 class="about__heading md-lg-heading">efficient</h2>
+          <p class="about__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="col-3">
+          <h2 class="about__heading md-lg-heading">done right</h2>
+          <p class="about__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- article area -->
+
+    <section id="article" class="container row">
+      <article>
+        <h1 class="large-heading">it doesn't have to be so hard</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam.
+        </p>
+        <img src="./img/the-image.jpg" alt="article the-image" loading="lazy" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam.
+        </p>
+      </article>
+      <aside>
+        <div class="aside__row">
+          <h2 class="aside__heading md-lg-heading">break it down</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="aside__row">
+          <h2 class="aside__heading md-lg-heading">work your way up</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="aside__row">
+          <h2 class="aside__heading md-lg-heading">break it down</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <section class="container">
+        <h3 class="heading">just scratching the surface</h3>
+        <div class="row">
+          <div class="col-3">
+            <h3 class="md-heading">about our company</h3>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="col-4">
+            <h3 class="md-heading">getting around</h3>
+            <ul>
+              <li class="footer__list__item">
+                <a href="#home" class="footer__link">home</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#about" class="footer__link">about</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#contact" class="footer__link">contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3 class="md-heading">other things</h3>
+            <ul class="footer__list">
+              <li class="footer__list__item">
+                <a href="#" class="footer__link">lorem ipsum</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="" class="footer__link">dolor</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#" class="footer__link">sit amet</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#" class="footer__link">consectetur</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h3 class="md-heading">and more</h3>
+            <ul class="footer__list">
+              <li class="footer__list__item">
+                <a href="#" class="footer__link">lorem ipsum</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="" class="footer__link">dolor</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#" class="footer__link">sit amet</a>
+              </li>
+              <li class="footer__list__item">
+                <a href="#" class="footer__link">consectetur</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- script -->
+    <script>
+      let navToggle = document.querySelector(".nav-toggle");
+      let nav = document.querySelector(".nav");
+
+      navToggle.addEventListener("click", () => {
+        nav.classList.toggle("nav--visible");
+      });
+    </script>
+  </body>
+</html>
