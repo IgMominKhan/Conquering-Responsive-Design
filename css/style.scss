@@ -377,13 +377,14 @@ footer {
   }
 
   #home {
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-
+    padding: 10em 0;
     .row {
       gap: initial;
+      align-items: center;
+
+      .hero__desc {
+        align-self: flex-end;
+      }
     }
   }
 

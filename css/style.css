@@ -344,17 +344,17 @@ footer .footer__link::first-letter {
     display: inline;
   }
   #home {
-    padding: 0;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    padding: 10em 0;
+  }
+  #home .row {
+    gap: initial;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  #home .row {
-    gap: initial;
+  #home .row .hero__desc {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
   #about,
   #article,
