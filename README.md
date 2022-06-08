@@ -1,6 +1,6 @@
 # Conquering Responsive Layout
 
-This is a solution to the [Designing Conquering Responsive Layout challenge by Kevin Powell](https://courses.kevinpowell.co/conquering-responsive-layouts). it's an interesting challenge for CSS learners. This challenge has covered a lot of knowledge to know as a front-end developer. I will recommend this course to newbie front-end developers. And Yes It's totally free.
+This is a solution to the [Designing Conquering Responsive Layout challenge by Kevin Powell](https://courses.kevinpowell.co/conquering-responsive-layouts). it's an interesting challenge for CSS learners. This challenge has covered a lot of knowledge to know as a front-end developer. I will recommend this course to newbie front-end developers. And Yes It's free.
 
 ## Table of contents
 
@@ -28,11 +28,14 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Conquering Responsive Layout](https://igmominkhan.github.io/Conquering-Responsive-Design/)
+- GitHub code : [Conquering Responsive Layout](https://github.com/IgMominKhan/Conquering-Responsive-Design)
 
 ## My process
 
 ### Built with
 
+- using CSS preprocessor Sass
+- CSS BEM naming convention
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
